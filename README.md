@@ -30,6 +30,6 @@ You can add ***tRandomizer -c*** to your shell config (.bashrc, .zshrc) to start
 
 ## FYI
 * More color scheme will be added by time. <br />
-* Try to keep the config file unchanged, or at least don't mess the format. <br />
 * You may have to edit config file accoring to your style. <br />
+* Try to keep the config file unchanged, or at least don't mess the format. <br />
 * Share this repo, Have a good day. <br />
