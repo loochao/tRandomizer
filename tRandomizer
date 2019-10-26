@@ -1,0 +1,42 @@
+#!/bin/bash
+
+## tRandomizer - Randomly Changes Colors For Termite
+## Author : Aditya Shakya
+
+## Colors
+R='\033[1;31m'
+B='\033[1;34m'
+C='\033[0;36m'
+G='\033[1;32m'
+W='\033[1;37m'
+Y='\033[1;33m'
+
+## Directories
+TDIR="$HOME/.config/termite"
+CDIR="/usr/share/tRandomizer/colors"
+REL="killall -USR1 termite"
+
+if  [[ $1 = "-c" ]]; then
+# Remove form [colors] to last line in config
+sed -i '/colors/Q' $TDIR/config
+# Append random colors to config file
+cat $CDIR/$((1 + RANDOM % 500)).color >> $TDIR/config
+# Reload config
+$REL
+
+elif  [[ $1 = "-v" ]]; then
+echo -e $B"tRandomizer -$R V1.0"
+
+elif  [[ $1 = "-a" ]]; then
+echo -e $G"tRandomizer - Randomly Changes Colors $C(500 color schemes)$G For Termite.$B
+Developed By -$R Aditya Shakya$Y (github.com/adi1090x)"
+
+else
+echo "Choose one option - 
+
+Available options:
+-c	change colors
+-v	version
+-a	about
+"
+fi

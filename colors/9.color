@@ -1,0 +1,39 @@
+[colors]
+
+# special
+foreground      = #e5caad
+foreground_bold = #e5caad
+cursor          = #e5caad
+background      = #100c07
+
+# black
+color0  = #1a150e
+color8  = #679935
+
+# red
+color1  = #241d15
+color9  = #d2aa73
+
+# green
+color2  = #382e22
+color10 = #d26589
+
+# yellow
+color3  = #534535
+color11 = #be56df
+
+# blue
+color4  = #74624d
+color12 = #a18154
+
+# magenta
+color5  = #9d8569
+color13 = #977a53
+
+# cyan
+color6  = #ccae8a
+color14 = #b850d9
+
+# white
+color7  = #efe0d1
+color15 = #d96089
