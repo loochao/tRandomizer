@@ -1,6 +1,6 @@
 ![logo](https://raw.githubusercontent.com/adi1090x/tRandomizer/master/demo/logo.png) <br />
 
-A simple program to randomly change colors for termite in real time. ***tRandomizer*** currently have 500 color schemes, generated from [terminal.sexy](https://terminal.sexy/). <br />
+A simple program to randomly change colors for termite in real time. *tRandomizer* currently have 500 color schemes, generated from [terminal.sexy](https://terminal.sexy/). <br />
 
 **How To Install** : Follow Instructions Below... <br />
 
@@ -21,8 +21,15 @@ And... Done, tRandomizer successfully installed. Here's a Demo... <br />
 <br />
 ![logo](https://raw.githubusercontent.com/adi1090x/tRandomizer/master/demo/demo_1.gif) <br />
 <br />
-You can add *tRandomizer -c* to your shell config (.bashrc, .zshrc) to start termite with a random color scheme each time you execute it.
+You can add ***tRandomizer -c*** to your shell config (.bashrc, .zshrc) to start termite with a random color scheme each time you execute it.
 <br />
 <p align="center">
   <img src="https://raw.githubusercontent.com/adi1090x/tRandomizer/master/demo/demo_2.gif">
 </p>
+<br />
+
+## FYI
+* More color scheme will be added by time. <br />
+* Try to keep the config file unchanged, or at least don't mess the format. <br />
+* You may have to edit config file accoring to your style. <br />
+* Share this repo, Have a good day. <br />
