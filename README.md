@@ -23,4 +23,6 @@ And... Done, tRandomizer successfully installed. Here's a Demo... <br />
 <br />
 You can add *tRandomizer -c* to your shell config (.bashrc, .zshrc) to start termite with a random color scheme each time you execute it.
 <br />
-![logo](https://raw.githubusercontent.com/adi1090x/tRandomizer/master/demo/demo_2.gif) <br />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/adi1090x/tRandomizer/master/demo/demo_2.gif">
+</p>
