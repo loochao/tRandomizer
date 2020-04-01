@@ -1,7 +1,10 @@
 #!/bin/bash
 
 ## tRandomizer - Randomly Changes Colors For Termite
-## Author : Aditya Shakya
+## Author : Aditya Shakya (adi1090x)
+## Mail : adi1090x@gmail.com
+## Github : @adi1090x
+## Reddit : @adi1090x
 
 ## Colors
 R='\033[1;31m'
